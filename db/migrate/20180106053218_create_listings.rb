@@ -1,4 +1,4 @@
-class CreateListings < ActiveRecord::Migration[4.2][5.1]
+class CreateListings < ActiveRecord::Migration[4.2][4.2][5.1]
   def change
     create_table :listings do |t|
       t.string :home_type

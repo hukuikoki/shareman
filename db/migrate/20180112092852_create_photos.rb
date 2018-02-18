@@ -1,4 +1,4 @@
-class CreatePhotos < ActiveRecord::Migration[4.2][5.1]
+class CreatePhotos < ActiveRecord::Migration[4.2][4.2][5.1]
   def change
     create_table :photos do |t|
       t.references :listing, foreign_key: true
