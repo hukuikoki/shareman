@@ -71,7 +71,7 @@ class ReservationsController < ApplicationController
           amount: amount,
           currency: user.currency,
           source: params[:token],
-          description: "Test Charge via Stripe Connect"
+          description: "Test Charge via Stripe Connect",
           application_fee: fee
         }
 
